@@ -8,5 +8,5 @@ Gem::Specification.new do |s|
   s.files = Dir["lib/**/*", "README.md"]
   s.homepage = "https://github.com/alex9spiridonov/cloudpayments"
   s.license = "MIT"
-  s.add_runtime_dependency 'faraday', '~> 2.7.10'
+  s.add_runtime_dependency 'faraday', '< 3'
 end
