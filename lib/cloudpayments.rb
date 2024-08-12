@@ -8,6 +8,9 @@ require_relative "cloudpayments/client/request/base"
 require_relative "cloudpayments/client/request/receipts/create"
 require_relative "cloudpayments/client/request/receipts/get_status"
 require_relative "cloudpayments/client/request/receipts/get"
+require_relative "cloudpayments/client/request/receipts/correction/create"
+require_relative "cloudpayments/client/request/receipts/correction/get_status"
+require_relative "cloudpayments/client/request/receipts/correction/get"
 
 module Cloudpayments
   class << self

@@ -1,7 +1,5 @@
 source "https://rubygems.org"
 
-gem "faraday", "~> 2.7.10"
-
 group :development do
   gem "pry"
 end
